@@ -47,6 +47,11 @@ header .general_button{
     background-color: #363636;
 }
 
+header #search_lens{
+    width: 25px;
+
+}
+
 /* Jumbotron Returnal*/
 .jumbotron_returnal{
     width: 100%;
@@ -176,4 +181,21 @@ main .ps5_products .general_button{
 
 .new_games{
     color: white;
+}
+
+/* Explore PS4 */
+.explore_ps4 .color_p{
+    color: #727272;
+}
+
+.explore_ps4 img{
+    width: 100%;
+}
+
+.explore_ps4 .general_button{
+    background-color: #2d64e6;
+}
+
+.explore_ps4 #reg_icon{
+    font-size: 20px;
 }
