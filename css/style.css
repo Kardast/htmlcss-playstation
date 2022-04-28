@@ -218,3 +218,35 @@ main .ps5_products .general_button{
 .bg_ps_plus #pplus_logo{
     width: 60%;
 }
+
+/* New Discounts */
+.new_discounts .color_p{
+    color: #727272;
+}
+
+.new_discounts img{
+    width: 95%;
+}
+
+/* PlayStation Now */
+.bg_ps_now{
+    background-color: #161c3b;
+    margin: 50px 0;
+}
+
+.bg_ps_now img{
+    width: 100%;
+}
+
+.bg_ps_now .general_button{
+    background-color: white;
+    color: black;
+}
+
+.bg_ps_now #pnow_logo{
+    width: 60%;
+}
+
+.bg_ps_now .color_p{
+    color: white;
+}
