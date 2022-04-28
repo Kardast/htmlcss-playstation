@@ -199,3 +199,22 @@ main .ps5_products .general_button{
 .explore_ps4 #reg_icon{
     font-size: 20px;
 }
+
+/* PlayStation Plus */
+.bg_ps_plus{
+    background-color: #bebcbb;
+    margin: 50px 0;
+}
+
+.bg_ps_plus img{
+    width: 100%;
+}
+
+.bg_ps_plus .general_button{
+    background-color: #d9dadc;
+    color: #2d64e6;
+}
+
+.bg_ps_plus #pplus_logo{
+    width: 60%;
+}
