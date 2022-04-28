@@ -103,7 +103,7 @@ main .ps5_products .small_product_img{
 }
 
 main .ps5_products .small_product_img:hover{
-    filter: opacity(0.4);
+    filter: none;
 }
 
 main .ps5_products .general_button{
@@ -144,7 +144,7 @@ main .ps5_products .general_button{
     background-repeat: no-repeat;
     padding-bottom: 60px;
     color: white;
-    margin: 30px 0;
+    margin-top: 30px;
 }
 
 .jumbotron_ittakestwo .general_button{
@@ -161,4 +161,19 @@ main .ps5_products .general_button{
 
 .jumbotron_ittakestwo p{
     margin-bottom: 40px;
+}
+
+/* New games */
+.new_games{
+    margin-bottom: 20px;
+    background-color: #1f1f1f;
+}
+
+.new_games img{
+    width: 100%;
+    border-radius: 15px;
+}
+
+.new_games{
+    color: white;
 }
