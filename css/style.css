@@ -28,10 +28,10 @@ a{
 }
 
 /* Debug generici */
-main [class*="col"]{
+/* main [class*="col"]{
     background-color: rgb(143, 143, 240);
     border: 2px black solid;
-}
+} */
 
 /* Header */
 header{
@@ -103,4 +103,16 @@ main .ps5_products .small_product_img{
 
 main .ps5_products .general_button{
     background-color: #2d64e6;
+}
+
+.ps5_products .color_span{
+    color: #117bd1;
+}
+
+.ps5_products .color_p{
+    color: #727272;
+}
+
+.ps5_products #span_space{
+    margin: 25px 0;
 }
