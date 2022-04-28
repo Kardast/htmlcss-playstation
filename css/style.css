@@ -250,3 +250,12 @@ main .ps5_products .general_button{
 .bg_ps_now .color_p{
     color: white;
 }
+/* Social Media */
+.social_media img{
+    width: 100%;
+}
+
+/* Footer */
+footer{
+    background-color: #00439c;
+}
