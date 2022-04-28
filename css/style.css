@@ -28,10 +28,10 @@ a{
 }
 
 /* Debug generici */
-/* .sub_jumbo [class*="col"]{
-    background-color: blue;
+main [class*="col"]{
+    background-color: rgb(143, 143, 240);
     border: 2px black solid;
-} */
+}
 
 /* Header */
 header{
@@ -51,6 +51,7 @@ header .general_button{
 .jumbotron{
     width: 100%;
     height: 675px;
+    background-color: #050505;
     background-image: url("../img/jumbo-bg.png");
     background-position: center;
     background-repeat: no-repeat;
@@ -88,4 +89,18 @@ header .general_button{
 #img_click:active{
     outline: 2px solid #0072ce;
     outline-offset: 2px;
+}
+
+/* PS5 Products */
+main .ps5_products .big_product_img{
+    width: 100%;
+}
+
+main .ps5_products .small_product_img{
+    width: 50%;
+    min-width: 116px;
+}
+
+main .ps5_products .general_button{
+    background-color: #2d64e6;
 }
