@@ -98,7 +98,12 @@ main .ps5_products .big_product_img{
 
 main .ps5_products .small_product_img{
     width: 50%;
-    min-width: 116px;
+    min-width: 120px;
+    filter: opacity(0.7);
+}
+
+main .ps5_products .small_product_img:hover{
+    filter: opacity(0.4);
 }
 
 main .ps5_products .general_button{
@@ -117,8 +122,16 @@ main .ps5_products .general_button{
     margin: 25px 0;
 }
 
+.ps5_products h6{
+    text-align: center;
+}
+
 .ps5_products #product_select{
     border-bottom:#0072ce solid 2px;
+}
+
+.ps5_products #no_filter{
+    filter: none;
 }
 
 /* Jumbo It takes two */
