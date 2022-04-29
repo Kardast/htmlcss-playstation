@@ -45,6 +45,17 @@ header .general_button{
     background-color: #363636;
 }
 
+@media screen and (max-width: 992px) {
+    header .general_button {
+      width: 400px;
+      margin-bottom: 10px;
+    }
+
+    header #search_button{
+        border: 1px solid grey;
+    }
+  }
+
 header #search_lens{
     width: 25px;
 
