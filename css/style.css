@@ -259,3 +259,23 @@ main .ps5_products .general_button{
 footer{
     background-color: #00439c;
 }
+
+footer .country_icon{
+    width: 20px;
+}
+
+footer .play_logo{
+    width: 100px;
+}
+
+footer .color_p{
+    color: white;
+}
+
+footer .sony_logo{
+    width: 150px;
+}
+
+footer .underline_span{
+    text-decoration: underline;
+}
