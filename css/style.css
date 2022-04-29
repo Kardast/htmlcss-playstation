@@ -27,6 +27,10 @@ a{
     color: white;
 }
 
+a:hover{
+    color: white;
+}
+
 /* Header */
 header{
     margin-bottom: 130px;
@@ -130,6 +134,7 @@ main .ps5_products .general_button{
 
 .ps5_products h6{
     text-align: center;
+    color: black;
 }
 
 .ps5_products #product_select{
@@ -199,6 +204,10 @@ main .ps5_products .general_button{
 
 .explore_ps4 #reg_icon{
     font-size: 20px;
+}
+
+.explore_ps4 h2{
+    color: black;
 }
 
 /* PlayStation Plus */
@@ -278,5 +287,9 @@ footer .sony_logo{
 }
 
 footer .underline_span{
+    text-decoration: underline;
+}
+
+footer a:hover{
     text-decoration: underline;
 }
